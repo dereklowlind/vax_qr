@@ -28,7 +28,6 @@ function App() {
                 width={'100%'} height={'100%'}
               />
             )}
-      
       <h1>Instructions</h1>
       <div>
         <div>1. Open the App (preferably in safari if IOS and chrome if Android)</div>
