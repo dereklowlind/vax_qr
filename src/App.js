@@ -51,6 +51,8 @@ function App() {
         <input type='file' onChange={handleFileUpload}/>
         <div>2. It is now set and requires no further steps</div>
       </div>
+
+      <h3>Suggestions or bugs email me at dereklowlind@gmail.com</h3>
     </div>
   );
 }
