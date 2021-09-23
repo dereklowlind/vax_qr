@@ -42,6 +42,8 @@ function App() {
         <div>4. Click the browse button and select your vaccine passport photo</div>
         <input type='file' onChange={handleFileUpload}/>
         <div>5. It is now set and requires no further steps</div>
+        <div>6. Share Vax QR with friends and family by sharing</div>
+        <a href="https://covidvaxqr.web.app/">https://covidvaxqr.web.app/</a>
       </div>
 
       <h1>How to change the photo</h1>
