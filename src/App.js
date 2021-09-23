@@ -28,7 +28,29 @@ function App() {
                 width={'100%'} height={'100%'}
               />
             )}
-      <input type='file' onChange={handleFileUpload}/>
+      
+      <h1>Instructions</h1>
+      <div>
+        <div>1. Open the App (preferably in safari if IOS and chrome if Android)</div>
+        <div>2. Click the share button, and select add to Home Screen.</div>
+        <img src='1-pin-website-to-iPhone.webp' alt='iOS how to pin website to homescreen' 
+           height={100} style={{paddingRight: '20px'}}
+        />
+        <img src='android-chrome-menu-add-to-home-screen.png' alt='Android how to pin website to homescreen' 
+          height={100}
+        />
+        <div>3. after go to the Home Screen and open the app</div>
+        <div>4. Click the browse button and select your vaccine passport photo</div>
+        <input type='file' onChange={handleFileUpload}/>
+        <div>5. It is now set and requires no further steps</div>
+      </div>
+
+      <h1>How to change the photo</h1>
+      <div>
+        <div>1. Click the browse button and select your new vaccine passport photo</div>
+        <input type='file' onChange={handleFileUpload}/>
+        <div>2. It is now set and requires no further steps</div>
+      </div>
     </div>
   );
 }
